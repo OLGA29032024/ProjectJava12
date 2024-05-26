@@ -11,7 +11,7 @@ public class Main {
         post.patronymic = "Викторовна";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванова";
-        post.subscription = "true";
+        boolean subscription = true;
         System.out.println(post.name);
     }
 }
